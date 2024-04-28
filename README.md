@@ -239,8 +239,8 @@ Thanks to the help from
 * [Zhenkun](https://github.com/czkkkkkk) on implementing temporal sampling for GNNs.
 * [Zunyao](https://github.com/DanielMao1) and Zhenkun on implementing a scalable DFS.
 * [Jianheng](https://github.com/squareRoot3), [Yanlin](https://github.com/Lilyzhangyanlin), [Zizhao](https://github.com/SandMartex) on curating the datasets.
-* Ning, [Yakun](https://github.com/Ereboas), [Yanbo](yanxwb) on implementing the baselines.
-* [Jiahang](https://github.com/), Jianheng on implementing AutoGluon-based solutions.
+* Ning, [Yakun](https://github.com/Ereboas), [Yanbo](https://github.com/yanxwb) on implementing the baselines.
+* [Jiahang](https://github.com/LspongebobJH), Jianheng on implementing AutoGluon-based solutions.
 * And all the above for running the experiments and fixing countless bugs.
 
 ## Security
