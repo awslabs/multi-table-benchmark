@@ -20,7 +20,7 @@ import dbinfer_bench as dbb
 dataset = dbb.load_rdb_data('diginetica')
 ```
 
-See the full list of datasets and their data card [here](TBD).
+See the full list of datasets and their data card in the accompanying paper.
 
 | Dataset name  | Task names                          |
 |:-------------:|:------------------------------------|
