@@ -1,0 +1,9 @@
+transforms:
+  - name: handle_dummy_table
+  - name: key_mapping
+  - name: column_transform_chain
+    config:
+      transforms:
+        - name: canonicalize_numeric
+        - name: canonicalize_datetime
+        - name: glove_text_embedding

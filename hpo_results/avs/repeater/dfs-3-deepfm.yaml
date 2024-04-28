@@ -1,0 +1,13 @@
+batch_size: 4096
+epochs: 500
+eval_batch_size: 4096
+feat_encode_size: 17
+lr: 0.0054631714862318275
+nn_config:
+  dropout: 0.36547658190907273
+  hid_size: 160
+  num_layers: 2
+  use_bn: false
+nn_name: deepfm
+patience: 30
+time_budget: 36000

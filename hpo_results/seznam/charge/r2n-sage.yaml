@@ -1,0 +1,17 @@
+batch_size: 185
+dropout: 0.1172743357952375
+enable_temporal_sampling: true
+epochs: 500
+eval_batch_size: 1024
+eval_trials: 3
+fanouts:
+- 20
+- 20
+- 20
+feat_encode_size: 216
+hid_size: 249
+lr: 0.0004894029045608274
+patience: 30
+predictor: null
+time_budget: 36000
+use_multiprocessing: true

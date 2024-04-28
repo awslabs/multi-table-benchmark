@@ -1,0 +1,16 @@
+batch_size: 4096
+epochs: 500
+eval_batch_size: 4096
+feat_encode_size: 147
+lr: 0.00012276610534285706
+nn_config:
+  attn_dropout: 0.008594348582574907
+  dropout: 0.04315792208066216
+  hid_size: 171
+  include_first_norm: false
+  num_heads: 5
+  num_layers: 7
+  use_token: false
+nn_name: fttransformer
+patience: 30
+time_budget: 36000

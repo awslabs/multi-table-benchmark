@@ -1,0 +1,112 @@
+source: "https://data.dgl.ai/mtbench"
+datasets:
+  avs:
+    version: "20240304"
+  avs-single:
+    version: "20240304"
+  avs-r2n:
+    version: "20240304"
+  avs-r2ne:
+    version: "20240304"
+  avs-dfs-1:
+    version: "20240304"
+  avs-dfs-2:
+    version: "20240304"
+  avs-dfs-3:
+    version: "20240304"
+  diginetica:
+    version: "20240304"
+  diginetica-single:
+    version: "20240304"
+  diginetica-r2n:
+    version: "20240304"
+  diginetica-r2ne:
+    version: "20240304"
+  diginetica-dfs-1:
+    version: "20240304"
+  diginetica-dfs-2:
+    version: "20240304"
+  diginetica-dfs-3:
+    version: "20240304"
+  amazon:
+    version: "20240304"
+  amazon-single:
+    version: "20240304"
+  amazon-r2n:
+    version: "20240304"
+  amazon-r2ne:
+    version: "20240304"
+  amazon-dfs-2:
+    version: "20240304"
+  amazon-dfs-3:
+    version: "20240304"
+  retailrocket:
+    version: "20240304"
+  retailrocket-single:
+    version: "20240304"
+  retailrocket-r2n:
+    version: "20240304"
+  retailrocket-r2ne:
+    version: "20240304"
+  retailrocket-dfs-1:
+    version: "20240304"
+  retailrocket-dfs-2:
+    version: "20240304"
+  retailrocket-dfs-3:
+    version: "20240304"
+  outbrain-small:
+    version: "20240304"
+  outbrain-small-single:
+    version: "20240304"
+  outbrain-small-r2n:
+    version: "20240304"
+  outbrain-small-r2ne:
+    version: "20240304"
+  outbrain-small-dfs-1:
+    version: "20240304"
+  outbrain-small-dfs-2:
+    version: "20240304"
+  outbrain-small-dfs-3:
+    version: "20240304"
+  mag:
+    version: "20240304"
+  mag-single:
+    version: "20240304"
+  mag-r2n:
+    version: "20240304"
+  mag-r2ne:
+    version: "20240304"
+  mag-dfs-1:
+    version: "20240304"
+  mag-dfs-2:
+    version: "20240304"
+  mag-dfs-3:
+    version: "20240304"
+  seznam:
+    version: "20240304"
+  seznam-single:
+    version: "20240304"
+  seznam-r2n:
+    version: "20240304"
+  seznam-r2ne:
+    version: "20240304"
+  seznam-dfs-1:
+    version: "20240304"
+  seznam-dfs-2:
+    version: "20240304"
+  seznam-dfs-3:
+    version: "20240304"
+  stackexchange:
+    version: "20240304"
+  stackexchange-single:
+    version: "20240304"
+  stackexchange-r2n:
+    version: "20240304"
+  stackexchange-r2ne:
+    version: "20240304"
+  stackexchange-dfs-1:
+    version: "20240304"
+  stackexchange-dfs-2:
+    version: "20240304"
+  stackexchange-dfs-3:
+    version: "20240304"

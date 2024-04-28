@@ -1,0 +1,20 @@
+batch_size: 507
+conv:
+  num_towers: 5
+dropout: 0.11429870278486154
+enable_temporal_sampling: true
+epochs: 500
+eval_batch_size: 4096
+eval_trials: 3
+fanouts:
+- 20
+- 20
+feat_encode_size: 66
+hid_size: 196
+lr: 0.0007061423358082483
+patience: 30
+predictor:
+  dropout: 0.9004720627558954
+  hid_size: 91
+  num_layers: 1
+time_budget: 36000

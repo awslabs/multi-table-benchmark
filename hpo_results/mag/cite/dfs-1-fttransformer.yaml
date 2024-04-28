@@ -1,0 +1,13 @@
+lr : 0.001
+batch_size : 512
+eval_batch_size : 1024
+feat_encode_size : 128
+nn_name : fttransformer
+nn_config:
+  hid_size: 128
+  dropout: 0.1
+  num_layers: 3
+  attn_dropout : 0.0
+  num_heads : 8
+  use_token : True
+  include_first_norm : False

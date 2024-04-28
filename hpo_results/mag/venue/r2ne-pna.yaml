@@ -1,0 +1,11 @@
+lr : 0.003
+batch_size : 8192
+eval_batch_size : 8192
+fanouts : [25, 20]
+hid_size : 64
+feat_encode_size : 128
+dropout : 0.1
+embed_ntypes : ['Author', 'Institution', 'FieldOfStudy']
+predictor: null
+conv:
+  num_towers: 1

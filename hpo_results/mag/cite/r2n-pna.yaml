@@ -1,0 +1,14 @@
+lr : 0.001
+batch_size : 2048
+eval_batch_size : 2048
+fanouts : [25, 20]
+hid_size : 128
+feat_encode_size : 128
+dropout : 0.1
+embed_ntypes : ['Author', 'Institution', 'FieldOfStudy']
+predictor:
+  num_layers: 4
+eval_trials: 3
+conv:
+  num_towers: 1
+negative_sampling_ratio: 20

@@ -1,0 +1,13 @@
+batch_size: 4096
+epochs: 500
+eval_batch_size: 4096
+feat_encode_size: 150
+lr: 0.006338805973623169
+nn_config:
+  dropout: 0.23109603396930511
+  hid_size: 414
+  num_layers: 4
+  use_bn: true
+nn_name: mlp
+patience: 30
+time_budget: 36000

@@ -1,0 +1,18 @@
+transforms:
+  - name: column_transform_chain
+    config:
+      transforms:
+        - name: canonicalize_numeric
+        - name: canonicalize_datetime
+        - name: featurize_datetime
+          config:
+            methods:
+              - YEAR
+              - MONTH
+              - DAY
+              - DAYOFWEEK
+              - TIMESTAMP
+        - name: norm_numeric
+        - name: remap_category
+  - name: filter_column
+  - name: fill_timestamp

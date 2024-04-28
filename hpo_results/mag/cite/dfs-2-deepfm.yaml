@@ -1,0 +1,10 @@
+lr : 0.001
+batch_size : 512
+eval_batch_size : 1024
+feat_encode_size : 128
+nn_name : deepfm
+nn_config:
+  hid_size: 128
+  dropout: 0.5
+  num_layers: 4
+  use_bn: False
