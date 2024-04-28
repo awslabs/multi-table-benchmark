@@ -238,7 +238,7 @@ Thanks to the help from
 * [Ning](https://github.com/NingLi670) on implementing graph construction.
 * [Zhenkun](https://github.com/czkkkkkk) on implementing temporal sampling for GNNs.
 * [Zunyao](https://github.com/DanielMao1) and Zhenkun on implementing a scalable DFS.
-* [Jianheng](https://github.com/squareRoot3), Yanlin[https://github.com/Lilyzhangyanlin], [Zizhao](https://github.com/SandMartex) on curating the datasets.
+* [Jianheng](https://github.com/squareRoot3), [Yanlin](https://github.com/Lilyzhangyanlin), [Zizhao](https://github.com/SandMartex) on curating the datasets.
 * Ning, [Yakun](https://github.com/Ereboas), [Yanbo](yanxwb) on implementing the baselines.
 * [Jiahang](https://github.com/), Jianheng on implementing AutoGluon-based solutions.
 * And all the above for running the experiments and fixing countless bugs.
