@@ -226,7 +226,7 @@ dbinfer fit-gml diginetica-r2ne ctr gat -c hpo_results/diginetica/ctr/r2ne-gat.y
 @article{dbinfer,
   title={4DBInfer: A 4D Benchmarking Toolbox for Graph-Centric Predictive Modeling on Relational DBs},
   author={Wang, Minjie and Gan, Quan and Wipf, David and Cai, Zhenkun and Li, Ning and Tang, Jianheng and Zhang, Yanlin and Zhang, Zizhao and Mao, Zunyao and Song, Yakun and Wang, Yanbo and Li, Jiahang and Zhang, Han and Yang, Guang and Qin, Xiao and Lei, Chuan and Zhang, Muhan and Zhang, Weinan and Faloutsos, Christos and Zhang, Zheng},
-  journal={arXiv preprint},
+  journal={arXiv preprint arXiv:2404.18209},
   year={2024}
 }
 ```
