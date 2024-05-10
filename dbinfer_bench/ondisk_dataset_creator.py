@@ -40,28 +40,28 @@ class OnDiskDatasetEdgesFormat(str, Enum):
     NUMPY = "numpy"
 
 class OnDiskDatasetNodesMeta(pydantic.BaseModel):
-    type : Optional[str]
+    type : Optional[str] = None
     num : int
 
 class OnDiskDatasetEdgesMeta(pydantic.BaseModel):
     class Config:
         use_enum_values = True
-    type : Optional[str]
+    type : Optional[str] = None
     format : OnDiskDatasetEdgesFormat
     path : str
 
 class OnDiskDatasetGraphMeta(pydantic.BaseModel):
     nodes : List[OnDiskDatasetNodesMeta]
     edges : List[OnDiskDatasetEdgesMeta]
-    feature_data : Optional[List[OnDiskFeatureData]]
+    feature_data : Optional[List[OnDiskFeatureData]] = []
 
 class OnDiskDatasetMeta(pydantic.BaseModel):
     # This data model differs from the internal OnDiskDatasetMeta
     # because it is designed for dataset creation.
     dataset_name: str
     graph: OnDiskDatasetGraphMeta
-    feature_data: Optional[List[OnDiskFeatureData]]
-    tasks: Optional[List[OnDiskTaskData]]
+    feature_data: Optional[List[OnDiskFeatureData]] = []
+    tasks: Optional[List[OnDiskTaskData]] = []
 
 class OnDiskTaskCreator:
 

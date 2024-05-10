@@ -49,7 +49,7 @@ class GraphMLSolutionConfig(pydantic.BaseModel):
     lr : float
     batch_size : int
     eval_batch_size : int
-    feat_encode_size : Optional[int]
+    feat_encode_size : Optional[int] = None
     fanouts : List[int]
     eval_fanouts : Optional[List[int]] = None
     negative_sampling_ratio : Optional[int] = 5

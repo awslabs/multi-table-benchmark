@@ -87,7 +87,7 @@ class DBBTableSchema(pydantic.BaseModel):
     # Column schemas.
     columns: List[DBBColumnSchema]
     # Time column name.
-    time_column: Optional[str]
+    time_column: Optional[str] = None
 
     @property
     def column_dict(self) -> Dict[str, DBBColumnSchema]:
@@ -139,7 +139,7 @@ class DBBTaskMeta(pydantic.BaseModel):
     evaluation_metric : DBBTaskEvalMetric
     target_column : str
     target_table : str
-    task_type : Optional[DBBTaskType]
+    task_type : Optional[DBBTaskType] = None
     key_prediction_label_column: Optional[str] = "label"
     key_prediction_query_idx_column: Optional[str] = "query_idx"
 
