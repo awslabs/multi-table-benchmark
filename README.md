@@ -31,7 +31,7 @@ See the full list of datasets and their data card in the accompanying paper.
 |`seznam`       |`charge`, `prepay`                   |
 |`amazon`       |`rating`, `purchase`, `churn`        |
 |`stackexchange`|`churn`, `upvote`                    |
-|`outbrain`     |`ctr`                                |
+|`outbrain-small`     |`ctr`                                |
 
 ## Understanding the dataset format
 
