@@ -1,16 +1,15 @@
 batch_size: 4096
 epochs: 500
 eval_batch_size: 4096
-feat_encode_size: 28
-lr: 0.00019035135066370004
+feat_encode_size: 240
+lr: 0.0033509608810343883
 nn_config:
-  attn_dropout: 0.5454415197675686
-  dropout: 0.08793326429586301
-  hid_size: 163
+  attn_dropout: 0.9597573394769204
+  dropout: 0.6389067342876578
+  hid_size: 100
   include_first_norm: true
-  num_heads: 8
-  num_layers: 7
-  use_token: true
+  num_heads: 3
+  num_layers: 3
+  use_token: false
 nn_name: fttransformer
-patience: 30
 time_budget: 36000
